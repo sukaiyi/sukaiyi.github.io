@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>Tesla OAuth 本地授权回调</title>
+<body><h1>Tesla OAuth 授权回调</h1><p>将下方完整回调 URL 仅粘贴到本机 tesla.py exchange 的隐藏提示中。不要发送到聊天。</p><textarea id="callback" readonly rows="8" cols="70"></textarea>
+<script>document.getElementById('callback').value=location.href;history.replaceState(null,'',location.pathname);</script>
+</body></html>
